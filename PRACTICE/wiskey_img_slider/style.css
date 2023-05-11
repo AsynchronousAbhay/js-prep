@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.scroll{
+    height: 61%;
+    width: 52%;
+    outline: 1px solid red;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 0.5vmax;
+    overflow-y: hidden;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.wiskey_images{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin: 0 1.8vmax;
+    object-fit: contain;
+}
+
+.scroller{
+    width: 5vmax;
+    height: 5vmax;
+    /* background-color: red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroller i{
+    font-size: 5vmax;
+    color: black;
+    font-weight: 100;
+}
+
+.scrolltoleft{
+    position: absolute;
+    left: 11%;
+    top: 43%;
+}
+.scrolltoright{
+    position: absolute;
+    right: 13%;
+    top: 43%;
+}
+
+#wiskey_1{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_1.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_2{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_2.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_3{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_3.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_4{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_4.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_5{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_5.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_6{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_6.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_7{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_7.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_8{
+    background-image: url(whiskey_8.png);
+    background-position: center;
+    background-size: cover;
+    height: 370px;
+    width: 180px;
+}
+#wiskey_9{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_9.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_10{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_10.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_11{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_11.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_12{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_12.png);
+    background-position: center;
+    background-size: cover;
+}
+#wiskey_13{
+    height: 370px;
+    width: 180px;
+    background-image: url(whiskey_13.png);
+    background-position: center;
+    background-size: cover;
+}

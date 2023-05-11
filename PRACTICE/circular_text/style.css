@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 18vmax;
+    width: 18vmax;
+    background-color: #1a1b1e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon i{
+    font-size: 2.2vmax;
+    font-weight: 500;
+    color: #8884d1;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.text span{
+    position: absolute;
+    left: 50%;
+    font: 600 1.6vmax "open sans";
+    color: #8884d1;
+    transform-origin: 0 100px;
+}

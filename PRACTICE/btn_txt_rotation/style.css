@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn_wrapper{
+    height: 5vmax;
+    width: 10vmax;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#btn_inner_txt_1{
+    font-size: 1.5vmax;
+    transform: scaleY(0);
+    transition: 0.2s linear transform;
+}
+
+#btn_inner_txt_2{
+    font-size: 1.5vmax;
+    position: absolute;
+    transition: 0.2s linear transform;
+    /* top: 0; */
+}

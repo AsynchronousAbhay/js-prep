@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    cursor: none;
+    /* overflow: hidden; */
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#main_2{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+#main_3{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+h1{
+    width: 60%;
+    font: 500 4vmax "pacifico";
+    text-align: center;
+}
+
+#cursor{
+    position: fixed;
+    width: 1.5vmax;
+    height: 1.5vmax;
+    border-radius: 50%;
+    background-color: red;
+    pointer-events: none;
+}
+
+h1:hover ~ #cursor{
+    width: 15vmax;
+    height: 15vmax;
+    border: 3px dashed rgb(38, 0, 255);
+    background-color: transparent;
+    animation: cursor 1s linear infinite both;
+}
+
+@keyframes cursor {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
