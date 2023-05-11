@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+.scroll{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.slide_1{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://images.unsplash.com/photo-1533470192478-9897d90d5461?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide_2{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide_3{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://images.unsplash.com/photo-1548983965-416c1920352e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2FsbHBhcGVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll_element_left{
+    width: 4vmax;
+    height: 4vmax;
+    border-radius: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.scroll_element_left span{
+    color: white;
+    font-size: 2vmax;
+}
+
+.scroll_element_right{
+    width: 4vmax;
+    height: 4vmax;
+    border-radius: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+
+.scroll_element_right span{
+    color: white;
+    font-size: 2vmax;
+}

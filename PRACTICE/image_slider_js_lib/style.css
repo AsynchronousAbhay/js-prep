@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+/* whisky img slider */
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.container{
+    height: 55vh;
+    width: 45%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image img{
+    width: 150px;
+}
+
+.swiper-button-prev{
+     position: absolute;
+     left: 20%;
+}
+
+.swiper-button-next{
+    position: absolute;
+    right: 22%;
+}

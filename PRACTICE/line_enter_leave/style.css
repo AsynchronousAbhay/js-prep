@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    width: 15vmax;
+    height: 5vmax;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2vmax;
+    text-decoration: none;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+span{
+    font-size: 3vmax;
+    transition: 0.2s linear transform;
+ }
+
+ a:hover span{
+    transform: translateX(10%);
+ }
+
+hr{
+    height: 0.2vmax;
+    width: 15vmax;
+    position: absolute;
+    bottom: 15%;
+    background-color: black;
+    left: 8%;
+    transform: scaleX(0);
+    transition: 1s linear transform;
+}
